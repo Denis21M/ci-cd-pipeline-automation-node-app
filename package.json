@@ -1,10 +1,21 @@
 {
     "name": "simple-node-app",
     "version": "1.0.0",
-    "description": "",
+    "description": "Steps to build a pipeline of a node project that creates and publishes a docker image and deploys it in an EKS cluster.",
     "main": "app.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js"
-    }
-  }
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Denis21M/ci-cd-pipeline-automation-node-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Denis21M/ci-cd-pipeline-automation-node-app/issues"
+    },
+    "homepage": "https://github.com/Denis21M/ci-cd-pipeline-automation-node-app#readme"
+}
